@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <link rel="stylesheet" href="02_join.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="Sidemenu.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- header html 시작부분 -->
+        <header>
+            <!-- header의 로고 -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./롬앤 자료/01(1)_header_logo.png" alt="logo" width="100">
+                </a>
+            </div>
+            <!-- header의 검색창 -->
+            <div class="search_box">
+                <form action="#" class="search">
+                    <input class="search_txt" type="text">
+                    <button class="search_btn" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <!-- header의user menu -->
+            <div class="user_box">
+                <ul class="user_menu">
+                    <li class="user">
+                        <a href="02_join.html">
+                            <img src="./롬앤 자료/01(3)_user.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="cart">
+                        <a href="#">
+                            <img src="./롬앤 자료/01(4)_cart.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="menu">
+                        <!-- 누르면 사이드메뉴 나오게 -->
+                        <div class="open_menu">
+                            <input type="checkbox" id="open_side">
+                            <label for="open_side" id="drop_side">
+                                <img src="./롬앤 자료/01(5)_menu.svg" alt="">
+                            </label>
+                            <ul class="drop_side">
+                                <li>
+                                    <div class="side_menu">
+
+                                        <div class="s_user">
+                                            <a href="#">
+                                                <div class="kakao_btn">
+                                                    <div class="kakao"><img src="./롬앤 자료/01(11)kakaotalk2.png" alt="">
+                                                    </div>
+                                                    <div class="kakao_login">카카오로 '1초' 로그인/회원가입</div>
+                                                </div>
+                                            </a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">일반 회원가입</a>
+                                                </li>
+                                                <li>|</li>
+                                                <li>
+                                                    <a href="#">일반 로그인</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <ul class="nav">
+                                            <li>
+                                                <div class="drop_title">
+                                                    <input type="checkbox" id="check_btn">
+                                                    <label for="check_btn" id="drop_title">SHOPPING</label>
+                                                    <label for="check_btn" id="drop_logo">
+                                                        <img src="./01(13)_plus.png" alt="">
+                                                    </label>
+                                                    <ul class="dropbar">
+                                                        <li>
+                                                            <ul class="drop_menu">
+                                                                <li>
+                                                                    <ul class="drop_left">
+                                                                        <li>
+                                                                            <a href="#">BASE</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">EYE</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">MATTE LIP</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">ACCs</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#" class="nav_pink">OUTLET</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li>
+                                                                    <ul class="drop_right">
+                                                                        <li>
+                                                                            <a href="#">FACE</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">GLOW LIP</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">NALE</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">SET</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#" class="nav_pink">ONLY
+                                                                                romMATE</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="drop_title">
+                                                    <input type="checkbox" id="check_btn2">
+                                                    <label for="check_btn2" id="drop_title2">COMMUNITY</label>
+                                                    <label for="check_btn2" id="drop_logo2">
+                                                        <img src="./01(13)_plus.png" alt="">
+                                                    </label>
+                                                    <ul class="dropbar2">
+                                                        <li>
+                                                            <ul class="drop_menu2">
+                                                                <li>
+                                                                    <ul class="drop_2">
+                                                                        <li>
+                                                                            <a href="#">EVENT</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">STORY</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">LOOKBOOK</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">NOTICE</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">Q&A</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">FAQ</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="drop_title">
+                                                    <ul class="drop_menu3">
+                                                        <li>
+                                                            <a href="#">MEMBERSHIP</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">REVIEW</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="nav_blue">OPEN OFFICE</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="nav_pink">케미프로젝트</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                        <div class="nav_add">
+
+                                            <div class="nav_side">
+                                                <a href="#">
+                                                    <div class="sidee">주문내역</div>
+                                                </a>
+                                                <div class="side_gray">|</div>
+                                                <a href="#">
+                                                    <div class="sidee">1:1문의</div>
+                                                </a>
+                                                <div class="side_gray">|</div>
+                                                <a href="#">
+                                                    <div class="sidee">채용문의</div>
+                                                </a>
+                                            </div>
+                                            <div class="nav_side2">
+                                                <a href="#">
+                                                    <div class="sidee">제휴문의</div>
+                                                </a>
+                                                <div class="side_gray">|</div>
+                                                <a href="#">
+                                                    <div class="sidee">해외수출문의</div>
+                                                </a>
+                                                <div class="side_gray">|</div>
+                                                <a href="#">
+                                                    <div class="sidee"><img src="./롬앤 자료/01(10)_instagram.png" alt="">
+                                                        인스타그램</div>
+                                                </a>
+                                            </div>
+
+                                            <div class="nav_cs">
+                                                <p>1670-2238</p>
+                                                <p>AM 10:00 ~ PM 17:00</p>
+                                                <p>(점심시간 : 12:20 ~ 13:30)</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- header html 끝부분 -->
+
+        <!-- content 시작부분 -->
+        <div class="container">
+
+        </div>
+        <!-- content 끝 부분 -->
+
+        <!-- 회원가입 페이지 시작부분 -->
+        <div class="join_box">
+            <br><br>
+            <h3>회원가입</h3>
+            <br><br>
+            <form action="#" class="join_form">
+                <h4>기본정보</h4>
+                <p>아이디</p>
+                <input type="text" id="id">
+                <button class="id_check">중복확인</button>
+                <p>비밀번호</p>
+                <input type="password" id="pw">
+                <p>비밀번호 확인</p>
+                <input type="password" id="pw_check">
+                <p>이름</p>
+                <input type="text" id="name">
+                <p>주소</p>
+                <input type="text" id="adress01">
+                <button class="adress_search">주소검색</button><br>
+                <input type="text" id="adress02"><br>
+                <input type="text" id="adress03"><br>
+                <p>휴대전화</p>
+                <input type="tel" id="num" maxlength="3"> -
+                <input type="tel" id="num" maxlength="4"> -
+                <input type="tel" id="num" maxlength="4">
+                <p>이메일</p>
+                <input type="text" id="email"> @
+                <select id="email-select">
+                    <option value="" disabled selected>이메일을 선택해 주세요.</option>
+                    <option value="naver">naver.com</option>
+                    <option value="daum">daum.net</option>
+                    <option value="google">google.com</option>
+                    <option value="hanmail">hanmail.com</option>
+                    <option value="input" id="add_email">직접입력</option>
+                </select>
+                <br><br>
+                <h4>추가정보</h4>
+                <p>성별</p>
+                <input class="gender" type="radio" name="gender" value="woman" checked><span> 여성</span>
+                <input class="gender" type="radio" name="gender" value="man" style="margin-left: 20px;"><span> 남성</span>
+                <p>생일</p>
+                <input class="bth" type="radio" name="bth" value="solar" checked><span> 양력</span>
+                <input class="bth" type="radio" name="bth" value="lunar" style="margin-left: 20px;"><span> 음력</span>
+                <br>
+                <input id="yy" type="text" maxlength="4">년
+                <input id="mm" type="text" maxlength="2">월
+                <input id="dd" type="text" maxlength="2">일
+                <p>가입경로</p>
+                <div class="join_route">
+                    <div class="radio_box01">
+                        <label class="radio_area01">
+                            <input type="radio" name="join_route" id="route01" value="instagram">
+                            <span>인스타그램</span>
+                        </label>
+                        <label class="radio_area01">
+                            <input type="radio" name="join_route" id="route02" value="facebook">
+                            <span>페이스북</span>
+                        </label>
+                        <label class="radio_area01">
+                            <input type="radio" name="join_route" id="route03" value="x">
+                            <span>X</span>
+                        </label>
+                        <label class="radio_area01">
+                            <input type="radio" name="join_route" id="route04" value="youtube">
+                            <span>유튜브</span>
+                        </label>
+                    </div>
+                    <div class="radio_box02">
+                        <label class="radio_area02">
+                            <input type="radio" name="join_route" id="route05" value="search">
+                            <span>검색</span>
+                        </label>
+                        <label class="radio_area02">
+                            <input type="radio" name="join_route" id="route06" value="blog">
+                            <span>블로그</span>
+                        </label>
+                        <label class="radio_area02">
+                            <input type="radio" name="join_route" id="route07" value="cafe">
+                            <span>카페</span>
+                        </label>
+                        <label class="radio_area02">
+                            <input type="radio" name="join_route" id="route08" value="online">
+                            <span>온라인 쇼핑</span>
+                        </label>
+                    </div>
+                    <div class="radio_box03">
+                        <label class="radio_area03">
+                            <input type="radio" name="join_route" id="route09" value="offilne">
+                            <span>오프라인 매장</span>
+                        </label>
+                        <label class="radio_area03">
+                            <input type="radio" name="join_route" id="route10" value="friends">
+                            <span>지인소개</span>
+                        </label>
+                        <label class="radio_area03">
+                            <input type="radio" name="join_route" id="route11" value="pop-up">
+                            <span>팝업스토어</span>
+                        </label>
+                        <label class="radio_area03">
+                            <input type="radio" name="join_route" id="route12" value="other">
+                            <span>기타</span>
+                        </label>
+                    </div>
+                </div>
+                <br><br>
+                <button type="submit" class="join_submit">
+                    <a href="03_join_check.html" style="color: white; 
+                    font-size: 18px;
+                    margin-left: 10px;
+                    font-weight: 400;">
+                        <img src="./롬앤 자료/01(6)_check.png" width="20"> 회원가입하기
+                    </a>
+                </button>
+            </form>
+            <ul class="join_other">
+                <li>[회원가입] 메뉴를 통해 이용약관, 개인정보보호정책 동의 및 일정 양식의 가입항목을 기입함으로써 회원에 가입되며, 가입 즉시 서비스를 무료로 이용하실 수 있습니다.</li>
+                <li>회원을 위한 이벤트 및 각종 할인행사에 참여하실 수 있습니다.</li>
+            </ul>
+        </div>
+        <!-- 회원가입 페이지 끝 부분 -->
+    </div>
+    <!-- footer 시작부분 -->
+    <footer>
+        <div class="ft_wrap">
+            <div class="ft_logo">
+                <img src="./롬앤 자료/01(1)_romand LOGO.png" alt="logo" width="200">
+            </div>
+            <div class="ft_inform">
+                <ul class="inform">
+                    <li class="box01">
+                        <div>
+                            <p><b>(주)아이패밀리에스씨</p></b><br>
+                            <p>서울특별시 송파구 동남로 122 (문정동) COLLECTED 빌딩<br>
+                                사업자등록번호 : 120-86-00633<br>
+                                통신 판매업 신고 번호 : 제2022-서울송파-1690호<br>
+                                대표자 : 김태욱,김성현</p>
+                        </div>
+                    </li>
+                    <li class="box02">
+                        <div>
+                            <p class="cs">고객센터</p>
+                            <p class="cs_num">1670-2238</p>
+                            <p class="cs_time">AM 10:00~ PM 17:00<br>
+                                점심시간 : 12:20~13:30</p>
+                        </div>
+                    </li>
+                    <li class="box03">
+                        <ul class="cs_menu">
+                            <li><a href="#">1:1 문의</a></li>
+                            <li style="margin-top: 8px;"><a href="#">채용문의</a></li>
+                            <li style="margin-top: 8px;"><a href="#">제휴문의</a></li>
+                            <li style="margin-top: 8px;"><a href="#">해외수출문의</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="ft">
+                <ul class="ftsns">
+                    <li><a href="#"><img src="./롬앤 자료/01(7)_insta.svg" alt=""></a></li>
+                    <li><a href="#"><img src="./롬앤 자료/01(8)_youtube.svg" alt=""></a></li>
+                    <li><a href="#"><img src="./롬앤 자료/01(9)_kakaotalk.svg" alt=""></a></li>
+                </ul>
+                <ul class="ft_add">
+                    <li><a href="#">이용약관</a></li>
+                    <li>|</li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li>|</li>
+                    <li><a href="#">이메일무단수집거부</a></li>
+                    <li>|</li>
+                    <li><a href="#">회사소개</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- footer 끝 부분 -->
+</body>
+
+</html>

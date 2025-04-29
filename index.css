@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* content css 시작부분 */
+
+/* [content] banner css 시작부분 */
+.banner {
+    width: 1200px;
+    height: 550px;
+    overflow: hidden;
+}
+.slide{
+    width: 6000px;
+    display: flex;
+    position: relative;
+    animation: slide 10s infinite 2s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes slide{
+    0%{
+        left: 0;
+    }
+    25%{
+        left: -1200px;
+    }
+    50%{
+        left: -2400px;
+    }
+    75%{
+        left: -3600px;
+    }
+    100%{
+        left: -4800px;
+    }
+}
+.slide:hover{
+    animation-play-state: paused;
+}
+.slide01{
+    width: 1200px;
+    height: 550px;
+}
+.slide01 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slide02{
+    width: 1200px;
+    height: 550px;
+}
+.slide02 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slide03{
+    width: 1200px;
+    height: 550px;
+}
+.slide03 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slide04{
+    width: 1200px;
+    height: 550px;
+}
+.slide04 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 10%;
+}
+/* [content] banner css 끝 부분 */
+
+/* [content] event btn css 시작 부분 */
+.event {
+    text-align: center;
+    width: 1080px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.event_btn {
+    width: 1080px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.event_button p {
+    font-weight: 800;
+    margin-top: 3px;
+}
+.event_button:hover{
+    opacity: 0.7;
+    transition: 0.4s;
+}
+
+/* [content] event btn css 끝 부분 */
+
+/* [content] Shoping now 시작부분 */
+.now {
+    width: 1080px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.now p {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.now_img {
+    display: flex;
+}
+
+.bimg {
+    width: 480px;
+    height: 580px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.smallimg {
+    width: 580px;
+    height: 580px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.small_box {
+    width: 260px;
+    overflow: hidden;
+}
+
+.s_img {
+    margin: 0 auto;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+}
+
+.small_box p {
+    margin: 5px;
+}
+
+.small_box:hover img {
+    box-sizing: border-box;
+    scale: 120%;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+/* [content] Shoping now 끝 부분 */
+
+/* [content] Outlet 시작부분 */
+.outlet {
+    width: 1080px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.outlet_img {
+    display: flex;
+    width: 1080px;
+}
+
+.sale {
+    overflow: hidden;
+}
+
+.sale_img {
+    width: 350px;
+    overflow: hidden;
+}
+
+.sale:hover img {
+    transition: 0.5s;
+    scale: 120%;
+    opacity: 0.7;
+}
+
+/* [content] Outlet 끝 부분 */
+
+/* [content] Only romMate 시작 부분 */
+.only {
+    width: 1080px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.only_img {
+    display: flex;
+    margin-top: 20px;
+}
+
+.romM {
+    overflow: hidden;
+}
+
+.rom_img {
+    width: 260px;
+    overflow: hidden;
+}
+
+.romM:hover img {
+    scale: 110%;
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+/* [content] Only romMate 시작 부분 */
+
+/* [content] instagram 시작 부분 */
+.instagram {
+    width: 1080px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.insta_profile {
+    display: flex;
+    width: 1080px;
+}
+
+.profile {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.insta_img {
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ins {
+    width: 330px;
+    height: 330px;
+    overflow: hidden;
+    margin: 3px;
+}
+
+/* [content] instagram 끝 부분 */
+
+/* [content] youtube 시작 부분 */
+.youtube {
+    width: 1080px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.youtube_profile {
+    display: flex;
+    width: 1080px;
+}
+
+.profile02 {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.profile02 img {
+    border-radius: 50px;
+}
+
+.youtube_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.ytb {
+    width: 520;
+    margin: 5px;
+}
+
+/* [content] youtube 끝 부분 */
+
+/* [content] history 시작 부분 */
+.history {
+    width: 1080px;
+    margin-top: 30px;
+    margin: 0 auto;
+}
+.history h1{
+    padding-top: 10px;
+}
+
+.his_img {
+    width: 100%;
+    height: 570px;
+    overflow: hidden;
+}
+
+.his_slide {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    animation: his_slide 15s infinite;
+}
+
+.his_slide:hover{
+    animation-play-state: paused;
+}
+
+@keyframes his_slide {
+    0% {
+        left: 0;
+        transition: 0.7s;
+    }
+
+    12.5% {
+        left: -400px;
+        transition: 0.7s;
+    }
+
+    25% {
+        left: -800px;
+        transition: 0.7s;
+    }
+
+    37.5% {
+        left: -1200px;
+        transition: 0.7s;
+    }
+
+    50% {
+        left: -1600px;
+        transition: 0.7s;
+    }
+
+    62.5% {
+        left: -2000px;
+        transition: 0.7s;
+    }
+
+    75% {
+        left: -2400px;
+        transition: 0.7s;
+    }
+
+    87.5% {
+        left: -2800px;
+        transition: 0.7s;
+    }
+
+    100% {
+        left: -3200px;
+        transition: 0.7s;
+    }
+}
+
+/* [content] history 끝 부분 */
+/* content 끝 부분 */

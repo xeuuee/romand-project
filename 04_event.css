@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+
+/* content css 시작 부분 */
+.content {
+    width: 1200px;
+    text-align: center;
+}
+
+.calender {
+    width: 1080px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.month {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.month h3 {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.month button {
+    border: none;
+    background: none;
+}
+
+.week {
+    width: 1080px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.week li {
+    width: 154;
+    margin-top: 20px;
+}
+
+.day {
+    width: 1080px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.day li {
+    width: 154px;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 20px;
+    background-image: url(./15_date\(2\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FF658C;
+}
+
+.day li.inactive {
+    background-image: url(./15_date.png);
+    color: #9D9D9D;
+}
+
+.check {
+    width: 1080px;
+    margin: 0 auto;
+    margin-top: 150px;
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 60px;
+}
+
+.check p {
+    position: relative;
+    animation: bounce 0.2s linear infinite alternate;
+    box-sizing: border-box;
+}
+@keyframes bounce{
+    0%{margin-top: 0px;}
+    100%{margin-top: 3px;}
+}
+.check_btn{
+    margin-top: 170px;
+}
+.check_btn button {
+    width: 590px;
+    height: 80px;
+    border-radius: 80px;
+    border: none;
+    background-color: #FF71BF;
+    margin-top: 20px;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 25px;
+}
+.notice{
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.notice li{
+    margin-bottom: 20px;
+    color: #5d5d5d;
+}

@@ -1,0 +1,72 @@
+/* heaeder css 시작부분 */
+header {
+    height: 30px;
+    padding: 10px;
+    width: 1200px;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 999;
+}
+
+.logo {
+    float: left;
+    width: 300px;
+}
+
+.search_box {
+    float: left;
+    width: 300px;
+    margin-left: 150px;
+}
+
+.search {
+    border: 1px solid #D9D9D9;
+    background-color: #F2F2F2;
+    height: 25px;
+    width: 250px;
+    border-radius: 50px;
+    margin-left: 25px;
+}
+
+.search_txt {
+    float: left;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 10px;
+    line-height: 20px;
+    width: 200px;
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.search_btn {
+    float: right;
+    width: 20px;
+    height: 24px;
+    line-height: 23px;
+    border: none;
+    background: none;
+    margin-right: 10px;
+    color: #F0B5B6;
+}
+
+.user_box {
+    float: right;
+    width: 300px;
+}
+
+.user_menu {
+    list-style: none;
+    float: right;
+    width: 100px;
+}
+
+.user_menu>li {
+    display: inline-block;
+    width: 30px;
+}
+/* heaeder css 끝부분 */

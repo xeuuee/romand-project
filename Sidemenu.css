@@ -1,0 +1,283 @@
+/* 사이드 메뉴 CSS 시작부분 */
+#open_side {
+    display: none;
+}
+
+#open_side:checked~.drop_side {
+    display: block;
+}
+
+.drop_side {
+    display: none;
+    width: 300px;
+    float: right;
+}
+.side_menu {
+    background-color: rgba(255, 255, 255, 0.816);
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    margin-top: 15px;
+    float: right;
+}
+
+.s_user {
+    height: 100px;
+    margin: 0 auto;
+}
+
+.kakao_btn {
+    background-color: #EBE525;
+    width: 210px;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    font-size: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.kakao {
+    margin-top: 6px;
+}
+
+.kakao_login {
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.s_user ul {
+    display: flex;
+    justify-content: center;
+    font-size: 9px;
+}
+
+.s_user li {
+    margin-top: 5px;
+}
+
+.s_user li a {
+    margin: 3px;
+    color: #3e3e3e;
+}
+
+
+
+#check_btn {
+    display: none;
+}
+
+#check_btn:checked~.dropbar {
+    display: block;
+}
+
+#check_btn:checked~#drop_logo {
+    transform: rotate(45deg);
+    transition: 0.3s;
+}
+
+.dropbar {
+    display: none;
+}
+
+
+
+#check_btn2 {
+    display: none;
+}
+
+#check_btn2:checked~.dropbar2 {
+    display: block;
+}
+
+#check_btn2:checked~#drop_logo2 {
+    transform: rotate(45deg);
+    transition: 0.3s;
+}
+
+.dropbar2 {
+    display: none;
+}
+
+.drop_title {
+    height: 40px;
+    line-height: 40px;
+}
+.nav{
+    height: 40%;
+}
+
+#drop_title {
+    float: left;
+    margin-left: 10px;
+}
+
+#drop_title2 {
+    float: left;
+    margin-left: 10px;
+}
+
+#drop_logo {
+    float: right;
+    margin-right: 10px;
+}
+
+#drop_logo2 {
+    float: right;
+    margin-right: 10px;
+}
+
+.drop_menu {
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+}
+
+.drop_menu2 {
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.drop_menu3 {
+    float: left;
+    display: block;
+    justify-content: space-between;
+}
+
+.drop_menu3 li {
+    text-align: left;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+}
+.drop_menu3 li a{
+    display: block;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.drop_2 li {
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    height: 30px;
+    line-height: 30px;
+    width: 300px;
+    box-sizing: border-box;
+    border-top: 1px solid #d5d5d5;
+    font-size: 13px;
+    color: #686868;
+}
+.drop_2 li:nth-child(6){
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.drop_left li {
+    border-top: 1px solid #d5d5d5;
+    border-right: 1px solid #d5d5d5;
+    width: 148px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    color: #686868;
+}
+.drop_left li:nth-child(5){
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.drop_left li a, .drop_right li a{
+    display: block;
+}
+
+.drop_right li {
+    border-top: 1px solid #d5d5d5;
+    width: 148px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    color: #686868;
+}
+.drop_right li:nth-child(5){
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.nav_pink {
+    color: rgb(245, 159, 174);
+}
+
+.nav_blue {
+    color: rgb(101, 138, 217);
+}
+
+.nav_add{
+    height: 40%;
+    padding-top: 150px;
+}
+.nav_side {
+    width: 297px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    border-top: 10px solid #e8e8e8;
+    padding-top: 2px;
+}
+
+.nav_side2 {
+    width: 297px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    border-top: 1px solid #d5d5d5;
+    margin-top: 5px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.nav_side div,
+.nav_side2 div {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sidee {
+    width: 94px;
+    font-size: 13px;
+}
+
+.side_gray {
+    color: #d5d5d5;
+}
+
+.nav_cs {
+    margin-top: 20px;
+    height: 15px;
+}
+
+.nav_cs p {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 10px;
+    color: #686868;
+}
+
+.nav_cs p:nth-child(1) {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 10px;
+    color: black;
+}
+
+.nav_cs p:nth-child(2) {
+    margin-top: 20px;
+}
+/* 사이드 메뉴 CSS 끝부분 */
